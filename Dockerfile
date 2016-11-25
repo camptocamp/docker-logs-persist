@@ -11,6 +11,5 @@ ENV JOB_TIME1="0 0 4 * * *"
 
 # Python script configuration
 ENV INPUT_LOG_PATH=/mnt/logging_logs/
-
 ENV OUTPUT_LOG_PATH=/mnt/apache-nas-logs/
-
+ENV FILTER_REGEXP="GET\\s/public/tri/"
